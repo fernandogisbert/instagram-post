@@ -1,0 +1,124 @@
+
+/* Reset CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Generales */
+
+
+/* Fuentes */
+
+@font-face {
+    font-family: 'Cabin';
+    src: url('../font/Cabin-Regular.woff2') format('woff2');
+}
+
+
+body {
+    font-family: 'Cabin';
+
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 1rem .9rem;
+}
+
+.header__left {
+    display: flex;
+    align-items:center;
+}
+
+.header__pic {
+    width: 3rem;
+}
+
+.header__info {
+    padding-left: .6rem;
+}
+.header__title {
+    font-size: 1.1rem;
+}
+
+.header__subtitle {
+    font-size: .8rem;
+    font-weight: normal;
+}
+
+.header__points {
+    font-size:2rem;
+}
+
+
+/*  Sección principal */
+
+.main__foto {
+    max-width:100%;
+    /* height: 50vh; */
+    object-fit: cover;
+}
+
+/* iconos de pie de foto */
+
+.icon {
+    width:30px;
+    margin-left: 5px;
+}
+
+.icon__arrow {
+    width:35px;
+    margin-left: 4px;
+}
+
+.main__icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem .5rem;
+}
+
+.main__left__icons {
+    display: flex;
+    align-items: center;
+}
+
+/* footer */
+
+.comments__and__more {
+    padding: .5rem .5rem;
+}
+
+.comments {
+    padding-top: .5rem;
+    padding-left: 1rem;
+}
+
+.comment__like {
+    display: flex;
+    justify-content: space-between;
+}
+.negrita {
+    font-weight: bold;
+}
+
+.gris {
+    opacity: .5;
+}
+
+.like {
+    width:15px;
+    height: 15px;
+    opacity: .5;
+}   
+
+.comment__time {
+    padding-top: .5rem;
+    font-size:.9rem;
+}
